@@ -36,7 +36,7 @@ def respond():
         # send the welcoming message
         bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
 
-
+        #Сделал коммент на основном компе
     else:
         try:
             # clear the message we got from any non alphabets
