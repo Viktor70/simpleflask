@@ -29,6 +29,7 @@ def respond():
 
     if text == "/start":
         # print the welcoming
+	# вот я добавил комментарий на test_server
         logging.info('Пользователь {} нажал кнопку /start'.format(update.message.chat.usrname))
         bot_welcome = """
        Привет {}. Я бот. Меня сделал виктор. Пока я ничего не умею.
